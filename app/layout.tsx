@@ -7,10 +7,10 @@ import Clarity from "@/components/Clarity";
 const mont = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Groq Novel",
+  title: "Gemini Novel",
   description:
-    "Groq Novel - Made using Next.js 15 and Vercel AI sdk powered by Groq. Supports multiple models like OpenAI,Gemma, Llama4, Llama3, Deepseek, Kimi, Qwen, Mixtral",
-  metadataBase: new URL("https://groq-ai.vercel.app/"),
+    "Gemini Novel - Made using Next.js 15 and Vercel AI sdk powered by Google Gemini. Supports multiple Gemini models including Gemini 2.0 Flash and Gemini 1.5",
+  metadataBase: new URL("https://gemini-ai.vercel.app/"),
   manifest: "/manifest.json",
   icons: {
     icon: "/favicon-32x32.png",

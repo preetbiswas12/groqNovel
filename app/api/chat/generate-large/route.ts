@@ -1,4 +1,4 @@
-import { groq } from "@ai-sdk/groq";
+import { google } from "@ai-sdk/google";
 import { convertToModelMessages } from "ai";
 import { SYSTEM_PROMPT } from "../../../../lib/systemPrompt";
 

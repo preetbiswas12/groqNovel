@@ -1,11 +1,11 @@
-# 🚀 Next.js + Groq AI Chat Application
+# 🚀 Next.js + Gemini AI Chat Application
 
-A lightning-fast ⚡ chat interface powered by Groq's API and built with Next.js
+A lightning-fast ⚡ chat interface powered by Google Gemini's API and built with Next.js
 
 
 ## ✨ Features
 
-- 🧠 Access to powerful LLMs through Groq's API
+- 🧠 Access to powerful LLMs through Google Gemini's API
 - 🔄 Real-time chat with multiple model options
 - ⏱️ Response time tracking for performance insights
 - 📱 Fully responsive design for all devices
@@ -16,32 +16,25 @@ A lightning-fast ⚡ chat interface powered by Groq's API and built with Next.js
 
 ## 🤖 Available Models
 
-- 🤖 OpenAI GPT OSS - 120B: Large-scale language understanding
-- 🤖 OpenAI GPT OSS - 20B: Large-scale language understanding
-- 🧪 Compound Beta: Experimental model for novel tasks
-- 🌙 Moonshot Kimi K2: Advanced conversational AI
-- 🐦 Qwen Qwen3 - 32B: Multilingual capabilities
-- ⚡ Llama 4 Maverick - 17B 128e: Optimized for long context processing
-- 🦙 Llama 4 Scout - 17B 16e: Specialized for code generation
-- 🔍 Deepseek R1 Llama - 70B: Specialized for complex reasoning
-- 🦙 Llama 3.3 - 70B Versatile: Balanced performance for most tasks
-- ⚡ Llama 3.1 - 8B Instant: Fast responses with moderate context
-- 💎 Gemma 2 - 9B IT: Lightweight model for efficient inference
+- 💎 Gemini 2.0 Flash: Fast and efficient for real-time applications
+- 🧠 Gemini 1.5 Pro: Advanced reasoning and long context understanding
+- ✨ Gemini 1.5 Flash: Lightweight and quick response model
+- 🚀 Additional Gemini models: Full suite of Google's latest AI models
 
 ## 🛠️ Getting Started
 
 ### Prerequisites
 
 - Node.js 18.x or higher
-- A Groq API key
+- A Google Gemini API key
 
 ### Installation
 
 #### Clone the repository
 
 ```bash
-git clone https://github.com/xeven777/next-groq.git
-cd next-groq
+git clone https://github.com/xeven777/next-gemini.git
+cd next-gemini
 ```
 
 #### Install dependencies
@@ -57,7 +50,7 @@ pnpm install
 #### Create a `.env.local` file in the root directory
 
 ```bash
-GROQ_API_KEY=your_groq_api_key
+GOOGLE_GENERATIVE_AI_API_KEY=your_gemini_api_key
 ```
 
 #### Start the development server
@@ -90,7 +83,7 @@ pnpm dev
 ## 🧩 Project Structure
 
 ```bash
-next-groq/
+next-gemini/
 ├── assets/           # Static assets like icons
 ├── components/       # React components
 │   └── Chatbox.tsx   # Main chat interface
@@ -98,7 +91,7 @@ next-groq/
 ├── public/           # Public assets
 ├── styles/           # CSS styles
 └── app/              # Next.js App Router
-    └── api/          # API routes for Groq integration
+    └── api/          # API routes for Gemini integration
 ```
 
 ## 🔧 Customization
@@ -121,7 +114,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 🙏 Acknowledgements
 
-- [Groq](https://groq.com/) for their powerful API
+- [Google Gemini](https://gemini.google.com/) for their powerful AI API
 - [Next.js](https://nextjs.org/) for the React framework
 - [Vercel AI SDK](https://sdk.vercel.ai/docs) for streaming capabilities
 

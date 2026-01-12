@@ -1,4 +1,4 @@
-import { groq } from "@ai-sdk/groq";
+import { google } from "@ai-sdk/google";
 import {
   convertToModelMessages,
   smoothStream,
@@ -56,7 +56,7 @@ export async function POST(req: Request) {
     const sanitized: UIMessage[] = sanitizeMessagesForModel(messages);
 
     const result = streamText({
-      model: groq(selectedModel ?? "llama-3.3-70b-versatile"),
+      model: google(selectedModel ?? "gemini-2.0-flash"),
       system: SYSTEM_PROMPT,
       messages: convertToModelMessages(sanitized),
       maxRetries: 3,
